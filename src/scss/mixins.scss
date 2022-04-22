@@ -1,0 +1,12 @@
+@mixin d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin d-flex($row,$justify,$align) {
+    display: flex;
+    flex-direction: $row;
+    justify-content: $justify;
+    align-items: $align;
+}

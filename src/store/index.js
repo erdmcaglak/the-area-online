@@ -5,13 +5,23 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-  },
-  getters: {
+    isDown:false,
+    pageRoute:''
   },
   mutations: {
+    setIsDown(state,item){
+      state.isDown = item;
+    },
+    setPageRoute(state,item){
+      state.pageRoute = item;
+    }
   },
-  actions: {
+  getters: {
+    getIsDown(state){
+      return state.isDown;
+    },
+    getPageRoute(state,item){
+      return state.pageRoute;
+    }
   },
-  modules: {
-  }
 })
