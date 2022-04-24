@@ -27,6 +27,18 @@ export default {
 html,body{
   width: 100%;
   font-size: 10px;
+  @media (min-width: 1025px) and (max-width: 1440px){
+      font-size: 9px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px){
+      font-size: 8px;
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+      font-size: 7px;
+  }
+  @media (max-width: 480px) {
+      font-size: 6px;
+  }
 }
 
 </style>

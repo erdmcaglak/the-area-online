@@ -7,10 +7,10 @@ export const navbarItems = [
 ]
 
 export const characters=[
-    {title:'Humans',value:'human',story:'Humans are a particularly warlike race. Although they do not have witchcraft abilities, they have very strong armor which are made of powerful metals.',characterWidth:270},
-    {title:'Dwarfs',value:'dwarf',story:'Dwarves are a very stubborn race. They never accept the supremacy of any other race. They born as a metal worker. They have great knowledge of metalworking.',characterWidth:270},
-    {title:'Sorcerers',value:'sorcerer',story:'Sorcerer characters prefer to fight only with magic. They are also very smart and wise. They are especially effective in crowd control and AoE damage.',characterWidth:270},
-    {title:'Elves',value:'elf',story:'Elves are very ancient and noble. Culturally they grown up with bow so their archery skill is very good. Although they are warriors, they have great knowledge about art and music.',characterWidth:270},
+    {title:'Humans',value:'human',story:'Humans are a particularly warlike race. Although they do not have witchcraft abilities, they have very strong armor which are made of powerful metals.'},
+    {title:'Sorcerers',value:'sorcerer',story:'Sorcerer characters prefer to fight only with magic. They are also very smart and wise. They are especially effective in crowd control and AoE damage.'},
+    {title:'Dwarfs',value:'dwarf',story:'Dwarves are a very stubborn race. They never accept the supremacy of any other race. They born as a metal worker. They have great knowledge of metalworking.'},
+    {title:'Elves',value:'elf',story:'Elves are very ancient and noble. Culturally they grown up with bow so their archery skill is very good. Although they are warriors, they have great knowledge about art and music.'},
 ]
 
 export const teamMembers = [
@@ -34,7 +34,7 @@ export const teamMembers = [
     {name:'Kemal T.',job:'Marketing Specialist',img:'kemal.png'},
     {name:'Altar U.',job:'Marketing Specialist',img:'altar.png'},
     {name:'Mert U.',job:'Community Manager',img:'mert.png'},
-    {name:'Oguzhan A.',job:'Community Manager',img:'oguzhan.png'},
+    {name:'Oğuzhan A.',job:'Community Manager',img:'oguzhan.png'},
     {name:'Eren N.',job:'Community Manager',img:'eren.png'},
 ]
 
